@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resumo</title>
 </head>
+
 <body>
     <a href=""></a>
-    <img src="/download (1).jpeg"
-    alt="foto"
-    height="200px"
-    width="350px">
-     <!-- src: endereço da imagem,
+    <img src="/download (1).jpeg" alt="foto" height="200px" width="350px">
+    <!-- src: endereço da imagem,
       alt: descrição,
       height: altura
       width: largura-->
@@ -29,7 +28,7 @@
         </tr>
     </table>
 
-    <video src="" controls ></video> 
+    <video src="" controls></video>
     <!--controls habilita os controles do video
     controlsList='nowdowload' : desabilida dowload
     autoplay : inicia o video automaticamente
@@ -39,23 +38,20 @@
     width ="" : largura-->
     <br>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.1445365722466!2d-46.746936913038375!3d-23.706532012008214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4f561bf1a0f3%3A0x2fdfca7a968ef773!2sNamora%20Comigo%20%3F!5e0!3m2!1spt-BR!2sbr!4v1741644544527!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.1445365722466!2d-46.746936913038375!3d-23.706532012008214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4f561bf1a0f3%3A0x2fdfca7a968ef773!2sNamora%20Comigo%20%3F!5e0!3m2!1spt-BR!2sbr!4v1741644544527!5m2!1spt-BR!2sbr"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
     <!--Site dentro do seu site
     Exemplos de uso: videos do YouTube e Google Maps-->
-    
+
     <br>
 
-    <label for=""> 
+    <label for="">
         <!--Etiqueta
         for: a qual Id pertence-->
         Data
-        <input  autocomplete="street-address"
-            disabled
-            value="Renato"
-            placeholder="Endereço"
-            autofocus
-            type="date"
-         > <!--autocomplete: as informações se auto completam
+        <input autocomplete="street-address" disabled value="Renato" placeholder="Endereço" autofocus type="date"> <!--autocomplete: as informações se auto completam
         disabled:input desabilitado
         value: valor que será mostrado no disabled
         placeholder: informação dentro do input
@@ -68,18 +64,63 @@
         <h1>Informações</h1>
         <label>
             Rua
-        <input type="text" name="rua" autocomplete="street-address">
+            <input type="text" name="rua" autocomplete="street-address">
         </label>
 
         <label>
             Numero
-        <input type="number" name="numero">
+            <input type="number" name="numero">
         </label>
 
         <button type="submit">Enviar dados</button>
     </form>
 
     <button type="button" onclick="Enviar"></button>
-    
+
 </body>
+
+<style>
+   /*   *{  }aplica a seleção em toda a pagina
+        #id{ } /*aplica a seleção em toda a id(identificação unica) selecionada
+        .class*{  }/*aplica a seleção em toda class */
+
+   /* Unidades de Medida
+
+    Absolutas
+    px(pixels) 1/100 polegada 0,254mm
+    in (inches/polegadas)
+    cm/mm (centimetro/milimetro)
+
+    Relativas
+    % calcula o tamanho relativo ao elemento pai
+    vw(view width) 1vw é 1% da largura da janela do navegador
+    vh(view height) 1vh é 1% da altura da janela do navegador
+    em é uma unidade relativa ao elemento pai
+    rem é uma unidade relativa ao elemento raiz */
+
+    /* Textos
+    color: cor da fonte 
+    font-size: Tamanho da fonte
+    font-weight: Grossura da fonte
+    font-family: Fonte
+    font-style: estilo da fonte(italico,negrito)
+    line-height: espaçamento das linhas
+    letter-spacing: espaçamento das letras
+    word-spacing: espaçamento entre as palavras
+    text-align: alinhamento do texto
+    text-transform: conversão das letras em maiusculas,minusculas,etc
+    text-decoration:decoração
+    text-shadow:sombra nas letras
+    
+    padding: espaço dentro do box
+    margin: espaçamento externo,entre as boxes
+    top:em cima, right:direita, bottom:em baixo, left:esquerda
+    */
+
+    
+    
+
+   
+</style>
+
 </html>
